@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, rgba(83, 76, 65, 0.75),rgb(226, 196, 191)), url("img/cal.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+  }
+.container{
+    text-align: center;
+    margin-top:50px;
+    height: 100vh;
+    font-size: 1.2rem;
+    font-weight: 2rem;
+    background-image: radial-gradient(circle, #887b7b, #242222);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-style: oblique;
+}
+ 
+table{
+    margin: auto;
+    height: 350px;
+    
+}
+ 
+input{
+    border-radius: 28px;
+    font-size:34px;
+    height: 50px;
+    width: 210px;
+    text-align: right;
+    
+    box-shadow: rgba(42, 42, 63, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    scroll-behavior: smooth;
+}
+ 
+button{
+    border-radius: 60px;
+    font-size: 22px;
+    background: white;
+    width: 60px;
+    height: 50px;
+  
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border: 1px solid rgba(255, 255, 255, 0.055);
+}
+ 
+.calculator{
+    background-color: #837b7b;
+    padding: 18px;
+    border-radius: 65px;
+    margin-top: 50px;
+    display: inline-block;
+    
+    
+   
+}
